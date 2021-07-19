@@ -1,0 +1,8 @@
+# Arquivos do Eclipse
+
+.classpath
+.project
+.settings/
+
+# Arquivos compilados
+target/
