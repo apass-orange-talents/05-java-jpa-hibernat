@@ -14,7 +14,6 @@ import br.com.alura.jpa.modelo.TipoMovimentacao;
 public class TestaRelacionamento {
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("alura_jpa");
-		
 		EntityManager em = emf.createEntityManager();
 	
 		Movimentacao movimentacao = new Movimentacao();
