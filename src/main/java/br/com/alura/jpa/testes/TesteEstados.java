@@ -8,7 +8,7 @@ import br.com.alura.jpa.modelo.Conta;
 
 public class TesteEstados {
 	public static void main(String[] args) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("contas");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("alura_jpa");
 		EntityManager em = emf.createEntityManager();
 
 		// Transient
