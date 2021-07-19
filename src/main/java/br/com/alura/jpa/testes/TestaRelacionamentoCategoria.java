@@ -18,7 +18,6 @@ public class TestaRelacionamentoCategoria {
 
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("alura_jpa");
-
 		EntityManager em = emf.createEntityManager();
 
 		Categoria categoria1 = new Categoria("viagem");
